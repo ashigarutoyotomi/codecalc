@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CodeCalc - coded by students, for quick calculatings</title>
+    <!-- <link rel="stylesheet" href="style/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/fall.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <!-- -----------main tabs------------ -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <h2 class="navbar-brand">CodeCalc</h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home/Correlation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="graph.html">Graph points</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link" href="mathwait.html">Math Wait/Dsprsn/avrg quad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="conversion.html">Quantity conversion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="mean.html">Arithmetic mean</a>
+                </li>
+              </ul>              
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div class="my-2 foto">
+            <h1 class="h1">CodeCalc - from self-taught coders for you</h1>
+        </div>
+    </div>
+    <!-- -----------------end of tabs----------- -->
+    <!-- -------------start of document body------------ -->
+    <h2 class="my-4">Correlation and dependence</h2>
+    <p class="px-2 my-1 mx-3">
+        In statistics, correlation or dependence is any statistical relationship, whether causal or not, between two random variables or bivariate data. In the broadest sense correlation is any statistical association, though it commonly refers to the degree
+        to which a pair of variables are linearly related. Familiar examples of dependent phenomena include the correlation between the physical statures of parents and their offspring, and the correlation between the price of a good and the quantity
+        the consumers are willing to purchase, as it is depicted in the so-called demand curve.
+    </p>
+    <h2 class="my-4">Definition</h2>
+    <p class="px-2 my-1 mx-3">
+        The most familiar measure of dependence between two quantities is the Pearson product-moment correlation coefficient (PPMCC), or "Pearson's correlation coefficient", commonly called simply "the correlation coefficient". Mathematically, it is defined as
+        the quality of least squares fitting to the original data. It is obtained by taking the ratio of the covariance of the two variables in question of our numerical dataset, normalized to the square root of their variances. Mathematically, one simply
+        divides the covariance of the two variables by the product of their standard deviations. Karl Pearson developed the coefficient from a similar but slightly different idea by Francis Galton.
+    </p>
+    <br>
+    <div class="text-center my-2">
+        <span class="alert-info text-center">The text given from <a href="https://en.wikipedia.org/wiki/Correlation_and_dependence" class="text-center">Official wikipedia page</a></span>
+    </div>
+    <div class="d-flex justify-content-center">
+        <iframe width="70%" height="315" src="https://www.youtube.com/embed/OVrPqZGuPlo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="my-3 mx-auto"></iframe>
+    </div>
+    <div class="container text-right">
+        <a href="https://www.youtube.com/watch?v=OVrPqZGuPlo&t=12s" title="donated video guide" about="_blank">
+        Youtube page</a>
+    </div>
+
+    <footer>
+        <div class="row bg-dark my-3 px-5 py-2">
+            <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+                <img src="img/math.jpg" alt="our selfie. codeman and " width="100%" title="our selfie"><br>
+                <p class="text-center text-light mx-auto">developers</p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 col-lg-3">
+                <h2 class="text-light p-1">Write to developers</h2>
+                <hr class="col-md-12">
+                <p class="text-light p-1 mx-auto text-center">Send to developers full information of new functionality to add it. Help site become more powerful!
+                    <a href="mailto:abecodeman@gmail.com">write!</a>
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12 col-lg-3">
+
+            </div>
+            <h2 class="text-center text-light mx-auto">
+                Powered by Abe Codeman & Janyl
+            </h2>
+        </div>
+    </footer>
+    <!-- <footer>
+      <form action="" id="mathWait" name="mathWait" class="form">
+        <div class="row">
+          <div class="container">
+            <div class="col-sm-12 col-md-12 alert-warning my-4">
+              Attention!!!the length of x values should be equal to length of p values!
+            </div>
+            <div class="col-sm-11 col-md-8">
+              <span class="badge badge-info">X values(enter through the space)</span>
+              <input required class="xAndP form-control p-1 mx-2 my-1" type="text" maxlength="85" id="mathValX" name="mathValX" placeholder="10 20 30 40 50 60">
+            </div> 
+            <div class="col-sm-11 col-md-8">
+                <span class="badge badge-info">P values(enter through the space).<br>Amount of p values should be equal to 1</span>
+              <input required class="xAndP form-control p-1 mx-2 my-1" type="text" maxlength="85" id="mathValP" name="mathValP" placeholder="10 20 30 40 50 60">
+            </div>
+            <div class="container row">
+              <button class="btn col-sm-3 col-md-3 btn-warning btn-sm p-1 m-auto mx-auto" id="doCalc">Calculate!</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="col-sm-3 col-md-3" id="ans"></div>
+    </footer> -->
+    <!-- -------------end of document body------------ -->
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
